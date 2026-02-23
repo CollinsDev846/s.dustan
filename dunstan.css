@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#learnMoreButton {
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid brown;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 5px;
+
+}
+
+#learnMoreButton:hover {
+  background-color: white;
+  color: brown;
+  transition: 0.3s all ease-in-out;
+}
